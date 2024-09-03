@@ -30,7 +30,7 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp A  &kp Z  &kp F  &kp P      &kp B       &kp J     &kp L      &kp U  &kp U          &kp EQUAL  &kp BSPC
+&kp TAB    &kp A  &kp Z  &kp F  &kp P      &kp B       &kp J     &kp L      &kp U  &kp Y          &kp EQUAL  &kp BSPC
 &kp LCTRL  &kp Q  &kp R  &kp S  &kp T      &kp G       &kp SEMI  &kp N      &kp E  &kp I          &kp O      &kp NUMBER_4
 &kp LSHFT  &kp W  &kp X  &kp C  &kp D      &kp V       &kp K     &kp H      &kp M  &kp LESS_THAN  &kp DOT    &kp ESC
                          &mo 1  &kp ENTER  &kp LWIN    &kp RALT  &kp SPACE  &mo 2
