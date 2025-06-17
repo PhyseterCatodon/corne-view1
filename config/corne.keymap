@@ -28,7 +28,7 @@
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
-            display-name = "Base";
+            display-name = "Alpha";
             bindings = <
 &kp ESC           &kp A  &kp Z  &kp F  &kp P       &kp B       &kp J     &kp L      &kp U  &kp Y          &kp EQUAL  &kp BSPC
 &kp TAB           &kp Q  &kp R  &kp S  &kp T       &kp G       &kp SEMI  &kp N      &kp E  &kp I          &kp O      &kp NUMBER_4
@@ -44,12 +44,12 @@
             // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
-            display-name = "Lower";
+            display-name = "Symbol";
             bindings = <
-&trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)   &kp RA(N5)             &kp RA(MINUS)      &none     &none   &kp N5         &kp MINUS  &kp LS(RA(N5))  &kp LS(RA(MINUS))  &trans
-&trans  &kp N0            &kp LEFT_BRACE     &kp N9                 &kp LEFT_BRACKET   &none     &none   &kp N7         &kp N2     &kp APOSTROPHE  &Ecirc             &kp N3
-&trans  &kp NUMBER_1      &kp DOUBLE_QUOTES  &kp RA(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &mo 4     &none   &kp RA(COMMA)  &kp LS(M)  &kp N8          &kp COMMA          &trans
-                                             &trans                 &trans             &trans    &trans  &trans         &trans
+&trans  &kp GRAVE     &kp LS(GRAVE)      &kp RA(N5)             &kp RA(MINUS)      &none     &none   &kp N5         &kp MINUS  &kp LS(RA(N5))  &kp LS(RA(MINUS))  &trans
+&trans  &kp N0        &kp LEFT_BRACE     &kp N9                 &kp LEFT_BRACKET   &none     &none   &kp N7         &kp N2     &kp APOSTROPHE  &Ecirc             &kp N3
+&trans  &kp NUMBER_1  &kp DOUBLE_QUOTES  &kp RA(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &mo 4     &none   &kp RA(COMMA)  &kp LS(M)  &kp N8          &kp COMMA          &trans
+                                         &trans                 &trans             &trans    &trans  &trans         &trans
             >;
         };
 
@@ -60,7 +60,7 @@
             // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
-            display-name = "Raise";
+            display-name = "Number";
             bindings = <
 &trans  &none              &kp HOME       &kp UP_ARROW  &kp END    &kp PAGE_UP      &kp QUESTION  &kp AMPERSAND    &kp ASTERISK  &kp LPAR   &kp RIGHT_BRACE        &trans
 &trans  &none              &kp LEFT       &kp DOWN      &kp RIGHT  &kp PAGE_DOWN    &kp SLASH     &kp DOLLAR       &kp PERCENT   &kp CARET  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET
