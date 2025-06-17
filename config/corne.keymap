@@ -46,7 +46,7 @@
 
             display-name = "Symbol";
             bindings = <
-&trans  &kp GRAVE     &kp LS(GRAVE)      &kp RA(N5)             &kp RA(MINUS)      &none     &none   &kp N5         &kp MINUS  &kp LS(RA(N5))  &kp LS(RA(MINUS))  &trans
+&trans  &kp NUBS      &kp LS(NUBS)       &kp RA(N5)             &kp RA(MINUS)      &none     &none   &kp N5         &kp MINUS  &kp LS(RA(N5))  &kp LS(RA(MINUS))  &trans
 &trans  &kp N0        &kp LEFT_BRACE     &kp N9                 &kp LEFT_BRACKET   &none     &none   &kp N7         &kp N2     &kp APOSTROPHE  &Ecirc             &kp N3
 &trans  &kp NUMBER_1  &kp DOUBLE_QUOTES  &kp RA(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &mo 4     &none   &kp RA(COMMA)  &kp LS(M)  &kp N8          &kp COMMA          &trans
                                          &trans                 &trans             &trans    &trans  &trans         &trans
